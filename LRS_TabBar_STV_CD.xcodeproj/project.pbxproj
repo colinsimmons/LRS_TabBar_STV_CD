@@ -18,26 +18,49 @@
 		8DC9AC0C14DF2F9E00BCE785 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9AC0B14DF2F9E00BCE785 /* SecondViewController.m */; };
 		8DC9AC0F14DF2F9F00BCE785 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC9AC0D14DF2F9E00BCE785 /* FirstView.xib */; };
 		8DC9AC1214DF2F9F00BCE785 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC9AC1014DF2F9F00BCE785 /* SecondView.xib */; };
+		8DC9AC1C14DF314600BCE785 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC9AC1A14DF314600BCE785 /* MainWindow-iPad.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		8DC9AC1D14DF324300BCE785 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.xcdatamodel;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "$(SYSTEM_DEVELOPER_DIR)/usr/bin/momc\n";
+		};
+		8DC9AC1E14DF350300BCE785 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		8DC9ABEE14DF2F9E00BCE785 /* LRS_TabBar_STV_CD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRS_TabBar_STV_CD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC9ABF214DF2F9E00BCE785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DC9ABF414DF2F9E00BCE785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DC9ABF614DF2F9E00BCE785 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8DC9ABFA14DF2F9E00BCE785 /* LRS_TabBar_STV_CD-Info.plist */ = {isa = PBXFileReference; path = "LRS_TabBar_STV_CD-Info.plist"; sourceTree = "<group>"; };
+		8DC9ABFA14DF2F9E00BCE785 /* LRS_TabBar_STV_CD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LRS_TabBar_STV_CD-Info.plist"; sourceTree = "<group>"; };
 		8DC9ABFC14DF2F9E00BCE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DC9ABFE14DF2F9E00BCE785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DC9AC0014DF2F9E00BCE785 /* LRS_TabBar_STV_CD-Prefix.pch */ = {isa = PBXFileReference; path = "LRS_TabBar_STV_CD-Prefix.pch"; sourceTree = "<group>"; };
-		8DC9AC0114DF2F9E00BCE785 /* LRS_TabBar_STV_CDAppDelegate.h */ = {isa = PBXFileReference; path = LRS_TabBar_STV_CDAppDelegate.h; sourceTree = "<group>"; };
+		8DC9AC0014DF2F9E00BCE785 /* LRS_TabBar_STV_CD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LRS_TabBar_STV_CD-Prefix.pch"; sourceTree = "<group>"; };
+		8DC9AC0114DF2F9E00BCE785 /* LRS_TabBar_STV_CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRS_TabBar_STV_CDAppDelegate.h; sourceTree = "<group>"; };
 		8DC9AC0214DF2F9E00BCE785 /* LRS_TabBar_STV_CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRS_TabBar_STV_CDAppDelegate.m; sourceTree = "<group>"; };
 		8DC9AC0514DF2F9E00BCE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		8DC9AC0714DF2F9E00BCE785 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8DC9AC0714DF2F9E00BCE785 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8DC9AC0814DF2F9E00BCE785 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8DC9AC0A14DF2F9E00BCE785 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8DC9AC0A14DF2F9E00BCE785 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		8DC9AC0B14DF2F9E00BCE785 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		8DC9AC0E14DF2F9F00BCE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		8DC9AC1114DF2F9F00BCE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		8DC9AC1814DF2FC900BCE785 /* LRS_TabBar_STV_CD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LRS_TabBar_STV_CD.entitlements; sourceTree = "<group>"; };
+		8DC9AC1B14DF314600BCE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +107,8 @@
 		8DC9ABF814DF2F9E00BCE785 /* LRS_TabBar_STV_CD */ = {
 			isa = PBXGroup;
 			children = (
+				8DC9AC1914DF314200BCE785 /* iPad */,
+				8DC9AC1814DF2FC900BCE785 /* LRS_TabBar_STV_CD.entitlements */,
 				8DC9AC0114DF2F9E00BCE785 /* LRS_TabBar_STV_CDAppDelegate.h */,
 				8DC9AC0214DF2F9E00BCE785 /* LRS_TabBar_STV_CDAppDelegate.m */,
 				8DC9AC0414DF2F9E00BCE785 /* MainWindow.xib */,
@@ -109,6 +134,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8DC9AC1914DF314200BCE785 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8DC9AC1A14DF314600BCE785 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +154,8 @@
 				8DC9ABEC14DF2F9E00BCE785 /* Resources */,
 			);
 			buildRules = (
+				8DC9AC1E14DF350300BCE785 /* PBXBuildRule */,
+				8DC9AC1D14DF324300BCE785 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -160,6 +195,7 @@
 				8DC9AC0614DF2F9E00BCE785 /* MainWindow.xib in Resources */,
 				8DC9AC0F14DF2F9F00BCE785 /* FirstView.xib in Resources */,
 				8DC9AC1214DF2F9F00BCE785 /* SecondView.xib in Resources */,
+				8DC9AC1C14DF314600BCE785 /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +246,14 @@
 				8DC9AC1114DF2F9F00BCE785 /* en */,
 			);
 			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		8DC9AC1A14DF314600BCE785 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC9AC1B14DF314600BCE785 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,7 +308,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRS_TabBar_STV_CD/LRS_TabBar_STV_CD-Prefix.pch";
 				INFOPLIST_FILE = "LRS_TabBar_STV_CD/LRS_TabBar_STV_CD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -275,7 +321,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRS_TabBar_STV_CD/LRS_TabBar_STV_CD-Prefix.pch";
 				INFOPLIST_FILE = "LRS_TabBar_STV_CD/LRS_TabBar_STV_CD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
